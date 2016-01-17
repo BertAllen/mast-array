@@ -38,7 +38,11 @@ var theBand = {
 
 
 //write a fn called pythagorean(a,b) have it return the value of c^2
-
+function pythag(a,b){
+    var h=(a*a)+(b*b);
+ //   return Math.sqrt(h)
+ return h
+}
 
 /**
     Best Practice: Constructor functions are the only variables that start with an uppercase letter
